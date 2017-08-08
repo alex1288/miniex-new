@@ -27,3 +27,98 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
+
+
+header {
+	background-color: #222222;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+h2 {
+	font-size: 25px;
+    line-height: 30px;
+
+}
+
+h3{
+	font-size: 20px;
+    line-height: 25px;
+
+}
+
+p{
+	font-style: 16px;
+}
+
+section {
+
+}	
+
+.gray_bg{
+ background-color: #f7f7f7;
+}
+
+.top-line{
+
+}
+
+.logo{
+text-align: left;
+}
+
+.contact-top{
+ text-align: right;
+}
+
+
+.main_box{
+	 background-color: #f7f7f7;
+	 position: relative;
+}
+
+.main_img {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+.second_box {
+
+}
+
+.second_box h2{
+	text-align: center;
+}
+
+
+.second_box h2:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #3f3e3e;
+  position: absolute;
+  left: 0; bottom: -5px; right: 0;
+ 
+
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  
+  -webkit-transform: scaleX(0.075);
+  -moz-transform: scaleX(0.075);
+  -o-transform: scaleX(0.075);
+  transform: scaleX(0,075);
+  visibility: visible;
+}
+
+.second_box:hover  h2:before  {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  visibility: visible;
+}
