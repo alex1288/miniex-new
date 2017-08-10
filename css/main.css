@@ -498,7 +498,7 @@ margin: 25px;
 
 
 .mobility_box_img img{
-  width: 75%;
+  width: 90%;
   position: relative;  
   
 }
@@ -559,8 +559,8 @@ margin: 25px;
 .digger_box_img img{
     width: 60%;
     position: absolute;
-    right: 0px;
-    top: 115px;
+    right: 85px;
+    top: 0px;
   
 }
 
@@ -572,7 +572,7 @@ margin: 25px;
 .another-box h2{
   color: #262626;
   text-align: left;
-    text-transform: uppercase;
+   // text-transform: uppercase;
     margin-bottom: 35px;
    // border-bottom: 2px solid #262626;
     font-size: 35px;
@@ -597,7 +597,7 @@ font-size: 19px;
 
 .engine {
     text-align: center;
-    padding: 35px 0px 35px 0px;
+    padding: 35px 0px 60px 0px;
 }
 
 .engine h2{
@@ -691,8 +691,8 @@ font-size: 19px;
 }
 
 .equipment:hover h2:before  {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  -webkit-transform: scaleX(0.975);
+  transform: scaleX(0.975);
   visibility: visible;
 }
 
@@ -729,6 +729,7 @@ text-transform: uppercase;
 .goods{
   background-color: transparent;
       padding: 80px 0px;
+      margin-top: -12px;
 }
 
 .goods:hover{
@@ -848,6 +849,7 @@ text-transform: uppercase;
     font-size: 45px;
     text-align: center;
     margin-bottom: 15px;
+    padding-bottom: 40px;
 } 
 .reviews h2:before {
   content: "";
@@ -876,12 +878,17 @@ text-transform: uppercase;
   visibility: visible;
 }
 
+.reviews h3{
+text-align: left;
+font-size: 30px;
+}
 
 .reviews p{
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      margin-top: 10px;
+      text-align: left;
 }
 
 
