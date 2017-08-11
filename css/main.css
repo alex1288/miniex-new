@@ -405,7 +405,7 @@ margin: 25px;
     color: white;
     padding: 25px;
     position: absolute;
-    left: 50%;
+    left: -191%;
     top: -30px;
     margin-left: -55px;
     /* padding-left: 15px; */
@@ -916,7 +916,7 @@ font-size: 30px;
     bottom: auto;
     z-index: 5000;
     right: 0;
-    width: 139px;
+    width: 119px;
 /*    -webkit-box-shadow: 0 0 1px black; 
     box-shadow: 0 0 1px black;*/
 
