@@ -37,24 +37,24 @@ $(document).ready(function() {
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+	// var owl = $(".carousel");
+	// owl.owlCarousel({
+	// 	items : 4
+	// });
+	// owl.on("mousewheel", ".owl-wrapper", function (e) {
+	// 	if (e.deltaY > 0) {
+	// 		owl.trigger("owl.prev");
+	// 	} else {
+	// 		owl.trigger("owl.next");
+	// 	}
+	// 	e.preventDefault();
+	// });
+	// $(".next_button").click(function(){
+	// 	owl.trigger("owl.next");
+	// });
+	// $(".prev_button").click(function(){
+	// 	owl.trigger("owl.prev");
+	// });
 
 	//Кнопка "Наверх"
 	//Документация:
@@ -82,5 +82,48 @@ $(document).ready(function() {
 		});
 		return false;
 	});
+
+	$(".owl-carousel_2").owlCarousel({
+		loop:true,
+		items: 1,
+		//margin:130,
+		//autoplay:true,
+	    autoplayTimeout:6000,
+	    autoplayHoverPause:true,
+		//stagePadding: 30,
+		dots: false,
+		nav: true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+		navContainer: '#customNav2',
+		responsive: {
+	    // > 0
+	    0 : {
+	      dots: false,
+	      margin:30,
+	      stagePadding: 30,
+	    },
+	    // > 768
+	    768 : {
+	    	margin:100,
+	    	stagePadding: 100,
+        //dots: true,
+	    }
+		}
+	});
+	$("#slider").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:4000,
+	    autoplayHoverPause:true,
+        animateOut: 'fadeOut',
+        dots: false,
+        nav: false,
+
+    });
+
+
+
+
 
 });

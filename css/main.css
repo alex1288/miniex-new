@@ -26,13 +26,21 @@ body textarea:required:valid {
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
-  z-index: 100
+  z-index: 100;
 }
 
 
 header, footer {
 	background-color: #222222;
 }
+
+header{
+      height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 
 footer {
 height: 80px;
@@ -104,7 +112,71 @@ margin-left: 15px;
     font-size: 22px;
 }
 
+.contact-top a{
+    background-color: #cc0000;
+    padding: 12px 24px 10px;
+    text-transform: uppercase;
+    color: #cacaca;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 25px;
+}
 
+
+.contact-top a:hover{
+  
+}
+
+.slider-box {
+  color: white;
+}
+
+.slider-box img{
+  width: 100%;
+}
+
+.slider-box-item{
+  //padding: 10% 0px;
+  //padding-top: 60px;
+}
+
+
+.slide {
+  
+  position: relative;
+}
+
+
+.slide p{
+  
+color: #fff;
+}
+
+
+
+.slide img{
+  position: relative;
+    
+}
+
+.slide h2{
+  font-size: 40px; 
+}
+
+
+.absolute {
+  position: absolute;
+  top: 25%;
+  width: 35%;
+}
+
+.gray-style{
+  background-color: rgba(58, 61, 65, 0.5);
+}
+
+.gray-style-un{
+  background-color: rgba(58, 61, 65, 0.7);
+}
 
 .main_box{
 	 background-color: #f7f7f7;
