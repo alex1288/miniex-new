@@ -122,7 +122,29 @@ $(document).ready(function() {
 
     });
 
+// форма обратной связи всплывающая 
+	$("#form").submit(function() {
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#form").serialize()
+		}).done(function() {
+			alert("Спасибо за заявку!");
+			setTimeout(function() {
+				$.magnificPopup.close();
+			}, 1000);
+		});
+		return false;
+	}); 
 
+
+
+
+	$(".popap").magnificPopup();		
+
+	   jQuery(function($){
+   $("#phone").mask("+7(999) 999-99-99");
+   });
 
 
 
