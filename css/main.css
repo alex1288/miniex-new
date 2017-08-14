@@ -59,8 +59,8 @@ h1{
 }
 
 h2 {
-	font-size: 25px;
-    line-height: 30px;
+	font-size: 35px;
+    //line-height: 30px;
     font-weight: 300;
 
 }
@@ -132,6 +132,22 @@ margin-left: 15px;
   
 }
 
+.contact-top .order_b a{
+  background-color: #333;
+  padding: 12px 24px 10px;
+  text-transform: uppercase;
+  color: #cacaca;
+  cursor: pointer;
+}
+
+
+.contact-top .order_b a:hover{
+  text-decoration: none;  
+}
+
+
+
+
 .slider-box {
   color: white;
 }
@@ -173,6 +189,17 @@ color: #fff;
   position: absolute;
   top: 25%;
   width: 35%;
+}
+
+.owl-carousel .slider_img {
+position: absolute;
+    top: 85px;
+    right: -70px;
+}
+
+.owl-carousel .slider_img img{
+  width: 70%;
+
 }
 
 .gray-style{
@@ -217,7 +244,7 @@ margin-top: 0px;
 }
 
 .second_box h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -258,7 +285,7 @@ margin-top: 0px;
 .second_box_info p{
 	width: 70%;
 	margin: auto;
-	margin-top: 55px;
+	/*margin-top: 55px;*/
 }
 
 .second_logo {
@@ -316,7 +343,7 @@ text-align: center;
 }
 
 .video h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 }	
@@ -374,7 +401,7 @@ text-align: center;
 }
 
 .infograph h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 } 
@@ -415,10 +442,11 @@ position: relative;
 height: 700px;
 }
 .infograph_box_img img{
-width: 100%;
-position: absolute;
-top: 35px;
-left: 0px;
+    width: 90%;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    margin: 0% 5%;
 }
 
             /*всплывающие подсказки*/
@@ -433,44 +461,48 @@ margin: 25px;
 }
 
 .i_have1 {
-    top: 21%;
-    left: 61%;
+    top: 19%;
+    left: 59%;
 }
 .i-have2 {
-    top: 65%;
-    right: 16%;
+    top: 55%;
+    right: 17.5%;
 }
 .i-have3 {
-      top: 40%;
-    right: 31.5%;
+    top: 32%;
+    right: 32.2%;
 }
 .i-have4 {
-  top: 40%;
-    right: 19.5%;
+    top: 36%;
+    right: 21.5%;
 }
 .i-have5 {
-      top: 52%;
-    right: 54.5%;
+    top: 45%;
+    right: 53%;
 }
 .i-have6 {
-      top: 85%;
+    top: 75%;
     right: 38.5%;
 }
 
 .i-have7 {
-      top: 18%;
+      top: 17%;
     right: 65.5%;
 }
 .i-have8 {
-  top: 101%;
-    right: 75.5%;
+    top: 90%;
+    right: 72%;
 }
 
 
  .i-have-a-tooltip i{
-  //color:#fff;
-    color:#deb873;
+/*color: #deb873;*/
+color: #f8c335;
     font-size: 29px;
+    border: 2px solid;
+    padding: 8px 8px 6px 8px;
+    line-height: 24px;
+    border-radius: 10em;
  }
 
 
@@ -484,7 +516,7 @@ margin: 25px;
     position: absolute;
     left: -191%;
     top: -30px;
-    margin-left: -55px;
+    margin-left: -6px;
     /* padding-left: 15px; */
     line-height: 25px;
     border-radius: 5px;
@@ -528,7 +560,7 @@ margin: 25px;
 }
 
 .mobility h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 } 
@@ -564,7 +596,7 @@ margin: 25px;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+   /*   margin-top: 55px;*/
 }
 
 .mobility_box_img {
@@ -587,7 +619,7 @@ margin: 25px;
 }
 
 .digger h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 } 
@@ -623,7 +655,7 @@ margin: 25px;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      /*margin-top: 55px;*/
 }
 
 .digger_box_img {
@@ -678,7 +710,7 @@ font-size: 19px;
 }
 
 .engine h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 45px;
 } 
@@ -719,7 +751,7 @@ font-size: 19px;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      /*margin-top: 55px;*/
 }
 
 .engine_box_img {
@@ -747,7 +779,7 @@ font-size: 19px;
 }
 
 .equipment h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
 } 
@@ -783,7 +815,7 @@ font-size: 19px;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      /*margin-top: 55px;*/
       margin-bottom: 40px
 }
 
@@ -811,7 +843,7 @@ text-transform: uppercase;
 .goods{
   background-color: transparent;
       padding: 80px 0px;
-      margin-top: -12px;
+      margin-top: -30px;
 }
 
 .goods:hover{
@@ -824,7 +856,7 @@ text-transform: uppercase;
 }
 
 .price h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 } 
@@ -860,7 +892,7 @@ text-transform: uppercase;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      /*margin-top: 55px;*/
 }
 
 .reviews_video {
@@ -869,7 +901,7 @@ text-transform: uppercase;
 }
 
 .reviews_video h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
 } 
@@ -905,7 +937,7 @@ text-transform: uppercase;
   max-width: 850px;
       margin: auto;
       font-size: 21px;
-      margin-top: 55px;
+      /*margin-top: 55px;*/
 }
 
 
@@ -917,7 +949,7 @@ text-transform: uppercase;
 
 
 .reviews h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 15px;
     padding-bottom: 40px;
@@ -987,7 +1019,7 @@ font-size: 30px;
 }
 
 .stats h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 45px;
 } 
