@@ -97,7 +97,7 @@ color: #797878;
 }
 
 .down-line{
-  
+  height: 240px;
 }
 
 .logo p{
@@ -562,7 +562,7 @@ color: #f8c335;
 
 .mobility {
     text-align: center;
-    padding: 365px 0px 35px 0px;
+    padding: 330px 0px 35px 0px;
 }
 
 .mobility h2{
@@ -613,7 +613,7 @@ color: #f8c335;
 
 
 .mobility_box_img img{
-  width: 80%;
+  width: 73%;
   position: relative;  
   
 }
@@ -1187,10 +1187,8 @@ background-color: #444;
   text-align: center;
   margin-top: 10px;
 }
-.mfp-content {
-     max-width: 320px;
-     background-color: transparent;
- }
+
+
 .button_form{
     height: 40px;
     width: 76%;
@@ -1198,19 +1196,21 @@ background-color: #444;
 }
 
 .mfp-content form {
-  padding: 0px 20px 20px 20px;
-  background-color: transparent;
-  width: 320px;
+  padding: 15px 40px 15px 40px;;
+  background-color: #f7f7f7;
+  width: 600px;
   margin: auto;
   position: relative;
-  color: #FFF;
+  color: #222222;
+  border-radius: 5px;
+
 
 }
 
 .mfp-content form input{
   width: 100%;
   margin-bottom: 10px;
-  font-size: 19px;
+  font-size: 21px;
   text-align: center;
   height: 40px;
   color: #000;
@@ -1280,7 +1280,7 @@ input {
   max-width: 550px;
   margin: auto; 
   font-size: 21px;
-  margin-top: 30px;
+  margin-top: 10px;
   display: block;
   text-align: center;
   text-decoration: none;
