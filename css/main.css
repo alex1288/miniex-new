@@ -92,8 +92,12 @@ color: #797878;
  background-color: #fff;
 }
 
-.top-line{
+.top-line, .down-line{
     color: #cacaca;
+}
+
+.down-line{
+  
 }
 
 .logo p{
@@ -102,6 +106,8 @@ text-align: left;
 font-size: 24px;
 margin-left: 15px;
 }
+
+
 
 .logo a{
     color: #cacaca;
