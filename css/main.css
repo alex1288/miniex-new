@@ -1392,10 +1392,7 @@ button.but_order:hover {
     top: 0px;
     width: calc((100% - 1200px)/2);
     height: 100%;
-      -webkit-transition: all 0.25s ease-in-out 0s;
-  -moz-transition: all 0.25s ease-in-out 0s;
-  -o-transition: all 0.25s ease-in-out 0s;
-  transition: all 0.25s ease-in-out 0s;
+
   cursor: pointer;
 
 }
@@ -1407,6 +1404,10 @@ button.but_order:hover {
   position: absolute;
   right: 0px;
   top:0px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .to_top:hover .to_top_gray{
