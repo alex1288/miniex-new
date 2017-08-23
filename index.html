@@ -29,7 +29,37 @@
 </head>
 <body>
 
+<style>
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
 
+#page-preloader .spinner {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('/img/loader.gif') no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+}
+</style>
+	
+<div id="page-preloader"><span class="spinner"></span></div>
+	<script>
+		$(window).on('load', function () {
+    var $preloader = $('#page-preloader'),
+        $spinner   = $preloader.find('.spinner');
+    $spinner.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+});
+		</script>
 <header class="top-line" style="height: 80px; z-index: 1001;">
 	<div class="container" >
 		<div class="col-md-6">
