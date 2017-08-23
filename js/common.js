@@ -29,6 +29,12 @@ $(document).ready(function() {
 
 	//Плавный скролл до блока .div по клику на .scroll
 	//Документация: https://github.com/flesler/jquery.scrollTo
+	$(".scroll").click(function() {
+		$.scrollTo($("#stats_goto"), 800, {
+			offset: -90
+		});
+	});
+
 	$("a.scroll").click(function() {
 		$.scrollTo($(".div"), 800, {
 			offset: -90
@@ -146,6 +152,14 @@ $(document).ready(function() {
    $("#phone").mask("+7(999) 999-99-99");
    });
 
+	   // Прелоадер
+		$(window).on('load', function () {
+			var $preloader = $('#page-preloader'),
+			$spinner   = $preloader.find('.spinner');
+			$spinner.fadeOut();
+			$preloader.delay(350).fadeOut('slow');
+		});
+		// Прелоадер
 
 
 });
