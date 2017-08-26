@@ -1813,7 +1813,13 @@ height: 250px;
     height: 615px;
     padding-top: 222px;
 }
+.logo p {
+text-align: center;
+margin-left: 0px; 
 
+margin-top: 0px;
+
+  }
   .contact-top p {
     font-size: 24px;
 }
