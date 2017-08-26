@@ -1732,6 +1732,7 @@ padding: 85px 0px 35px 0px;
 
 .stats_txt_box {
 
+  width: 59.6%;
 text-align: center;
 }
 
@@ -1860,6 +1861,17 @@ height: 250px;
     right: 10px;
     top: -3px;
 }
+
+
+.mobility p, .digger p, .video p {
+
+    font-size: 17px;
+  }
+
+.stats_txt_box h3 {
+    font-size: 24px;
+
+
 }
 
 /* Custom, iPhone Retina */
