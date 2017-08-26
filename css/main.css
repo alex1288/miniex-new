@@ -1810,7 +1810,7 @@ height: 250px;
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 .main_box {
-    height: 508px;
+    height: 615px;
     padding-top: 222px;
 }
 
