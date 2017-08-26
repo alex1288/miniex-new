@@ -92,6 +92,14 @@ section p{
  background-color: #fff;
 }
 
+.top-line{
+  height: 80px;
+  z-index: 1001;
+}
+.top-line i{
+  margin-bottom: 0px;
+}
+
 .top-line, .down-line{
   color: #cacaca;
 }
@@ -219,6 +227,9 @@ section p{
 .main_box{
   background-color: #f7f7f7;
   position: relative;
+  height: 508px;     
+  padding-top: 80px;
+
 }
 
 .main_box h1{
@@ -226,10 +237,12 @@ section p{
   line-height: 36px;
   margin-bottom: 8px;
   width: 50%;
+  text-align: left;
 }
 
 .main_box p{
   margin-top: 0px;
+  text-align: left;
 }
 
 .main_img {
@@ -295,20 +308,29 @@ section p{
 }
 
 .second_logo {
-  margin-top: 60px;
-  width: 100%;
+  margin-top: 45px;
+  /*width: 100%;*/
   text-align: center;
+  /*position: absolute;*/
 }
 
 .second_logo img{
-	width: 160px;
+	width: 100%;
 	text-align: center;
 }
 
-.second_logo h3{
+.second_box_item h3{
   font-size: 34px;
   line-height: 40px;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 0px
 }	 
+
+.second_p p{
+text-align: left;
+margin-left: 15px; 
+}  
 
 .subscribe 	{
   text-align: center;
@@ -401,9 +423,22 @@ section p{
 	text-decoration: none;	
 }
 
+.for_video {
+  height: 350px;
+        width: 650px;
+        margin: auto;
+        padding-top: 120px;
+        background-color: #c6c2c2;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 25px;
+}
+
+
 .infograph {
   text-align: center;
   padding: 35px 0px;
+  height: 590px;
 }
 
 .infograph h2{
@@ -563,6 +598,7 @@ section p{
 .mobility {
   text-align: center;
   padding: 330px 0px 35px 0px;
+  height: 1073px;
 }
 
 .mobility h2{
@@ -622,6 +658,7 @@ section p{
 .digger {
   text-align: center;
   padding: 35px 0px 35px 0px;
+  height: 600px;
 }
 
 .digger h2{
@@ -762,7 +799,7 @@ section p{
 
 .engine_box_img {
   position: relative;
-
+  padding: 0px 60px;
   margin-top: 35px;
 
 }
@@ -875,9 +912,22 @@ section p{
   background-color: #fff;
 }
 
+.present{
+    position: absolute;
+    bottom: 36px;
+    left: 43px;
+    z-index: 1;
+    width: 59%;
+  }
+
+
+
+
+
 .price {
   text-align: center;
   padding: 35px 0px 35px 0px;
+  height: auto;
 }
 
 
@@ -967,6 +1017,9 @@ background-color: #cc0000;
 
 .price_p h3{
  font-size: 30px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+
 }
 
 
@@ -1155,6 +1208,7 @@ background-color: #cc0000;
   width: 59.6%;
   display: inline-block;
   vertical-align: top;
+  text-align: left;
 }
 
 .stats_txt_box h3{
@@ -1162,7 +1216,6 @@ background-color: #cc0000;
   line-height: 24px;
   font-weight: 900;
   margin-bottom: 5px;
-  text-align: left;
   margin-top: 45px
 }
 
@@ -1170,7 +1223,6 @@ background-color: #cc0000;
 .stats_txt_box p{
   margin: auto;
   font-size: 21px;
-  text-align: left;
   font-weight: 300;
 }
 
@@ -1243,6 +1295,14 @@ box-shadow: 0 0 1px black;*/
   display: none;
 
 }
+
+.hidden_md {
+    display: none;
+}
+
+.hidden_xs {
+    display: inline-block;
+}
 /*всплывающая форма обратной связи начало*/
 .mfp-close{
   color: #FFF;
@@ -1293,10 +1353,6 @@ box-shadow: 0 0 1px black;*/
 
 }
 
-.mfp-content form textarea{
-  width: 100%;
-  margin-bottom: 10px;
-}
 
 .pop_form input[type="text"] {
   display: block;
@@ -1429,3 +1485,385 @@ button.but_order:hover {
 
   opacity: 0.5
 }
+
+
+                      /*Мобильная версия*/
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+
+
+
+.top-line{
+  height: auto;
+}
+
+
+.top-line i{
+    margin-bottom: 15px;
+
+}
+
+.logo p{
+  text-align: left;
+  /*margin: 3px;*/
+  font-size: 23px;
+  margin-left: 15px;
+  /*line-height: 65px;*/
+  margin-bottom: 0px;
+      margin-top: 41px;
+}
+
+
+
+.main_box{
+  height: 508px;     
+  padding-top: 133px;
+
+}
+
+.main_box h1{
+
+  width: 100%;
+}
+
+
+.main_img {
+    position: absolute;
+    right: 0px;
+    bottom: -310px;
+}
+
+
+.second_box {
+  padding-top: 0px; 
+
+}
+.second_box h3 {
+    font-size: 28px;
+}
+
+.second_logo img{
+  width: 120%;
+  text-align: center;
+}
+
+
+.infograph {
+      height: 488px;
+}
+
+.i_have1 {
+    top: 15%;
+    left: 57%;
+}
+
+.i-have2 {
+    top: 46%;
+    right: 15.5%;
+}
+
+.i-have3 {
+    top: 28%;
+    right: 31.2%;
+}
+
+.i-have4 {
+    top: 28%;
+    right: 20.5%;
+}
+
+.i-have5 {
+    top: 37%;
+    right: 52%;
+}
+
+.i-have6 {
+    top: 61%;
+    right: 37.5%;
+}
+
+.i-have7 {
+    top: 12%;
+    right: 61.5%;
+}
+
+.i-have8 {
+    top: 74%;
+    right: 71%;
+}
+
+
+.mobility {
+
+  height: auto;
+}
+
+.digger {
+
+  height: 530px;
+}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+.logo p{
+  text-align: center;
+
+}
+
+.contact-top p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.main_box {
+    height: 508px;
+    padding-top: 148px;
+}
+
+.main_box h1{
+  text-align: center;
+}
+.main_box p{
+  text-align: center;
+}
+
+
+.second_box h2:before {
+
+    top: 50px;
+}
+
+.second_box h2 {
+    font-size: 33px;
+  }
+
+.infograph h2 {
+    font-size: 33px;
+  }
+.second_logo img{
+  width: 100%;
+  text-align: center;
+}
+
+.i_have1 {
+    top: 10%;
+    left: 56%;
+}
+.i-have2 {
+    top: 35%;
+    right: 12.5%;
+}
+.i-have3 {
+    top: 20%;
+    right: 30.2%;
+}
+.i-have4 {
+    top: 21%;
+    right: 18.5%;
+}
+.i-have5 {
+    top: 28%;
+    right: 50%;
+}
+.i-have6 {
+    top: 46%;
+    right: 35.5%;
+}
+.i-have7 {
+    top: 9%;
+    right: 61.5%;
+}
+.i-have8 {
+    top: 57%;
+    right: 70%;
+}
+
+
+.digger_box_img img {
+    width: 93%;
+    position: absolute;
+    right: 55px;
+    top: -55px;
+}
+
+.video, .digger, .infograph, .engine, .equipment, .price, .reviews_video  {
+    padding: 0px 0px;
+}
+
+.price {
+    height: 394px;
+}
+
+.price_p h3{
+ font-size: 28px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+
+}
+
+
+.mobility {
+padding: 85px 0px 35px 0px;
+  }
+.mobility h2, .stats h2, .digger h2, .video h2,.engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
+    font-size: 35px;
+  }
+
+.equipment h2:before {
+    top: 60px;
+}
+.goods {
+    margin-top: -27px;
+}
+  .stats_txt_box p {
+   
+    font-size: 17px;
+  }
+
+.stats_txt_box {
+
+text-align: center;
+}
+
+
+.hidden_md {
+    display: block;
+}
+
+.hidden_xs {
+    display: none;
+}
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+.contact-top a {
+    font-size: 13px;
+}
+.contact-top p {
+    font-size: 18px;
+}
+.main_box {
+    height: 508px;
+    padding-top: 185px;
+}
+
+.main_img {
+
+    bottom: -230px;
+}
+
+.main_box h1 {
+    font-size: 38px;
+}
+
+
+.for_video {
+height: 250px;
+    width: 100%;
+        margin: auto;
+        padding-top: 120px;
+        background-color: #c6c2c2;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 25px;
+}
+
+
+.engine_box_img {
+  padding: 0px 0px;
+}
+
+.hidden_768 {
+    display: none;
+}
+
+
+.mobility h2, .stats h2, .digger h2, .video h2, .engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
+    font-size: 27px;
+
+
+  }
+
+  h2:before{
+    display: none;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.main_box {
+    height: 508px;
+    padding-top: 222px;
+}
+
+  .contact-top p {
+    font-size: 24px;
+}
+
+.second_box_item h3 {
+
+    text-align: center;
+  }
+
+  .second_p p {
+    text-align: center;
+}
+.mobility {
+    padding: 10px 0px 35px 0px;
+}
+
+.price_img {
+    width: 0%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price_p {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.hidden_xs_480 {
+    display: none;
+}
+
+.mobility_box_img img {
+    width: 100%;
+  }
+
+  .main_img {
+    bottom: -161px;
+  }
+
+  .digger_box_img img {
+    width: 100%;
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
