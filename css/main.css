@@ -1837,6 +1837,9 @@ height: 250px;
   .stats h2 {
     margin-bottom: 0px;
 }
+.mfp-content form input {
+height: auto;
+  }
 }
 
 /* Extra Small Devices, Phones */
