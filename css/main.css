@@ -143,7 +143,7 @@ section p{
 
 
 .contact-top a:hover{
-
+  background-color: #9a0f0f;
 }
 
 .contact-top .order_b a{
@@ -152,11 +152,13 @@ section p{
   text-transform: uppercase;
   color: #cacaca;
   cursor: pointer;
+  margin-left: 15px;
 }
 
 
 .contact-top .order_b a:hover{
   text-decoration: none;  
+  background-color: #2d2b2b;
 }
 
 
@@ -277,7 +279,7 @@ section p{
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -293,9 +295,9 @@ section p{
 }
 
 .second_box:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 .second_box_info {
@@ -315,7 +317,7 @@ section p{
 }
 
 .second_logo img{
-	width: 100%;
+	width: 25%;
 	text-align: center;
 }
 
@@ -381,7 +383,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -397,9 +399,9 @@ margin-left: 15px;
 }
 
 .video:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -453,7 +455,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -469,9 +471,9 @@ margin-left: 15px;
 }
 
 .infograph:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 .infograph p{
@@ -612,7 +614,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -628,9 +630,9 @@ margin-left: 15px;
 }
 
 .mobility:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -672,7 +674,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -688,9 +690,9 @@ margin-left: 15px;
 }
 
 .digger:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -764,7 +766,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -780,9 +782,9 @@ margin-left: 15px;
 }
 
 .engine:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 .engine h3{
@@ -833,7 +835,7 @@ margin-left: 15px;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -849,9 +851,9 @@ margin-left: 15px;
 }
 
 .equipment:hover h2:before  {
-  -webkit-transform: scaleX(0.975);
+/*  -webkit-transform: scaleX(0.975);
   transform: scaleX(0.975);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -906,7 +908,7 @@ margin-left: 15px;
 .goods{
   background-color: transparent;
   padding: 35px 0px;
-  margin-top: -35px;
+  margin-top: -32px;
 }
 
 .goods:hover{
@@ -948,7 +950,11 @@ background-color: #cc0000;
     margin-left: 25px;
 
 }
+.price a:hover{
+background-color: #9a0f0f;
 
+
+}
 
 .price .price_more a{
     background-color: #333;
@@ -959,6 +965,10 @@ background-color: #cc0000;
 
 }
 
+
+.price .price_more a:hover{
+    background-color: #2d2b2b;
+}
 .price .price_more p{
   margin-top: 35px;    
 }
@@ -975,7 +985,7 @@ background-color: #cc0000;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -991,9 +1001,9 @@ background-color: #cc0000;
 }
 
 .price:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -1053,7 +1063,7 @@ background-color: #cc0000;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -1069,9 +1079,9 @@ background-color: #cc0000;
 }
 
 .reviews_video:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -1102,7 +1112,7 @@ background-color: #cc0000;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -1118,9 +1128,9 @@ background-color: #cc0000;
 }
 
 .reviews:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 .reviews h3{
@@ -1172,7 +1182,7 @@ background-color: #cc0000;
   height: 3px;
   background-color: #3f3e3e;
   position: absolute;
-  left: 0; top: 90px; right: 0;
+  left: 0; top: 95px; right: 0;
 
 
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -1188,9 +1198,9 @@ background-color: #cc0000;
 }
 
 .stats:hover h2:before  {
-  -webkit-transform: scaleX(1);
+/*  -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  visibility: visible;
+  visibility: visible;*/
 }
 
 
@@ -1238,8 +1248,8 @@ background-color: #cc0000;
 
 .stats a:hover{
   text-decoration: none;  
+    background-color: #2d2b2b;
 }
-
 .right_box {
   top: 50%;
   position: fixed;
@@ -1488,6 +1498,19 @@ button.but_order:hover {
 }
 
 
+footer .social a {
+  text-align: center;
+color: #cacaca;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+footer .social a:hover {
+color: #ffffff;
+cursor: pointer;
+}
+
                       /*Мобильная версия*/
 
 /*==========  Desktop First Method  ==========*/
@@ -1549,7 +1572,7 @@ button.but_order:hover {
 }
 
 .second_logo img{
-  width: 120%;
+  width: 25%;
   text-align: center;
 }
 
@@ -1609,6 +1632,10 @@ button.but_order:hover {
   //height: 530px;
 }
 
+.stats_txt_box {
+    width: 58.6%;
+}
+
 }
 
 
@@ -1652,7 +1679,7 @@ button.but_order:hover {
     font-size: 33px;
   }
 .second_logo img{
-  width: 100%;
+  width: 25%;
   text-align: center;
 }
 
@@ -1807,10 +1834,14 @@ height: 250px;
   h2:before{
     display: none;
   }
+  .stats h2 {
+    margin-bottom: 0px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
 .main_box {
     height: 615px;
     padding-top: 222px;
@@ -1825,6 +1856,11 @@ margin-top: 0px;
   .contact-top p {
     font-size: 24px;
 }
+
+.contact-top .order_b a{
+  margin: auto;
+}
+
 
 .second_box_item h3 {
 
@@ -1880,6 +1916,16 @@ margin-top: 0px;
 .stats_txt_box h3 {
     font-size: 24px;
 
+}
+.stats_txt_box {
+    width: 90%;
+}
+
+.mfp-content form {
+    padding: 15px 5px 15px 5px;
+width: auto; 
+
+}
 
 }
 
