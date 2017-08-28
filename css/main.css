@@ -658,7 +658,7 @@ margin-left: 15px;
 .digger {
   text-align: center;
   padding: 35px 0px 35px 0px;
-  height: 600px;
+  //height: 600px;
 }
 
 .digger h2{
@@ -710,9 +710,10 @@ margin-left: 15px;
 
 .digger_box_img img{
   width: 77%;
-  position: absolute;
-  right: 117px;
-  top: -86px;
+  //position: absolute;
+  position: relative;
+/*  right: 117px;
+  top: -86px;*/
   
 }
 
@@ -1195,7 +1196,7 @@ background-color: #cc0000;
 
 
 .stats_img_box {
-  width: 39%;
+  width: 40%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -1605,7 +1606,7 @@ button.but_order:hover {
 
 .digger {
 
-  height: 530px;
+  //height: 530px;
 }
 
 }
@@ -1691,9 +1692,10 @@ button.but_order:hover {
 
 .digger_box_img img {
     width: 93%;
-    position: absolute;
-    right: 55px;
-    top: -55px;
+    //position: absolute;
+    position: relative;
+    /*right: 55px;
+    top: -55px;*/
 }
 
 .video, .digger, .infograph, .engine, .equipment, .price, .reviews_video  {
@@ -1767,7 +1769,7 @@ text-align: center;
 
 .main_img {
 
-    bottom: -230px;
+    bottom: -250px;
 }
 
 .main_box h1 {
@@ -1811,11 +1813,8 @@ height: 250px;
 @media only screen and (max-width : 480px) {
 .main_box {
     height: 615px;
-    padding-top: 210px;
+    padding-top: 222px;
 }
-.main_box h1 {
-    font-size: 35px;
-    }
 .logo p {
 text-align: center;
 margin-left: 0px; 
@@ -1834,18 +1833,6 @@ margin-top: 0px;
 
   .second_p p {
     text-align: center;
-}
-
-.second_box  h3 {
-    font-size: 22px;
-}
-.digger {
-    height: 446px;
-}
-
-.engine h3 {
-    font-size: 22px;
-    margin-top: 15px;
 }
 .mobility {
     padding: 10px 0px 35px 0px;
@@ -1878,9 +1865,10 @@ margin-top: 0px;
 
   .digger_box_img img {
     width: 100%;
-    position: absolute;
-    right: 10px;
-    top: -3px;
+    //position: absolute;
+    position: relative;
+/*    right: 10px;
+    top: -3px;*/
 }
 
 
@@ -1891,38 +1879,12 @@ margin-top: 0px;
 
 .stats_txt_box h3 {
     font-size: 24px;
-}
-.second_p p {
-  
-    margin-left:  0px;
-}
-.stats_txt_box {
-    width: 100%;
-    text-align: center;
-}
 
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-.main_box h1 {
-    font-size: 30px;
-    }
-
-    .contact-top a {
-    font-size: 12px;
-}
-
-.contact-top .order_b a {
-
-    margin-left: 0px;
-}
-.col-xs-12 {
-
-    padding-left: 0px;
-    padding-right: 0px;
-}
 
 }
 
