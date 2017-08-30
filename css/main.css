@@ -1497,6 +1497,13 @@ button.but_order:hover {
   opacity: 0.5
 }
 
+.map_mask {
+    height: 400px;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    z-index: -1;
+}
 
 footer .social a {
   text-align: center;
@@ -1840,6 +1847,11 @@ height: 250px;
 .mfp-content form input {
 height: auto;
   }
+.map_mask {
+
+    z-index: 1;
+}
+
 }
 
 /* Extra Small Devices, Phones */
