@@ -1,3 +1,15 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.tvomz.ru$ [NC]
+RewriteRule ^(.*)$ http://tvomz.ru/$1 [R=301,L]
+
 <ifModule mod_expires.c>
 
 # Add correct content-type for fonts
