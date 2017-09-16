@@ -392,36 +392,41 @@ text-align: left;
 margin-left: 15px; 
 }  
 
-.subscribe 	{
+ 
+.subscribe {
   text-align: center;
-  border-bottom: 1px solid;
-  border-top: 1px solid;
-  padding: 35px 0px;
-
+  padding: 60px 0px;
 }
 
-.subscribe 	p{
- margin: 22px 0;
-
+.subscribe img{
+margin-top: 40px;
+width: 66%;
 }
 
-.subscribe a{
-	background-color: #333;
-	padding: 12px 20px 10px;
-	text-transform: uppercase;
-	color: #cacaca;
-  cursor: pointer;
+.subscribe h2{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+} 
+.subscribe h2:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #3f3e3e;
+  position: absolute;
+  left: 0; top: 95px; right: 0;
 
-}
 
-.subscribe a:hover{
-	text-decoration: none;
-	color: #cacaca;
-
-}
-
-.subscribe h3{
-  margin-bottom: 40px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  
+  -webkit-transform: scaleX(0.075);
+  -moz-transform: scaleX(0.075);
+  -o-transform: scaleX(0.075);
+  transform: scaleX(0,075);
+  visibility: visible;
 }
 
 
@@ -626,21 +631,7 @@ margin-left: 15px;
   width: 220px;
 }
 
-/*.i-have-a-tooltip:after {
- content:'';
- display:block;
- position:absolute;
- top:35px;
- left:50%;
- margin-left:-8px;
- height:0;
- width:0;
- border-left:8px solid transparent;
- border-right:8px solid transparent;
- border-top:8px solid rgba(0,0,0,.7);
- transition:.25s ease-in-out;
- opacity:0;
- }*/
+
  
  .i-have-a-tooltip:hover:before {
    opacity:1;
@@ -1941,9 +1932,11 @@ cursor: pointer;
 .mobility {
 padding: 85px 0px 35px 0px;
   }
-.mobility h2, .stats h2, .digger h2, .video h2,.engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
+.mobility h2, .subscribe h2, .stats h2, .digger h2, .video h2,.engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
     font-size: 35px;
   }
+
+
 
 .equipment h2:before {
     top: 60px;
@@ -2022,7 +2015,7 @@ height: 250px;
 }
 
 
-.mobility h2, .stats h2, .digger h2, .video h2, .engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
+.mobility h2, .subscribe h2, .stats h2, .digger h2, .video h2, .engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
     font-size: 27px;
 
 
@@ -2047,10 +2040,12 @@ height: auto;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-.mobility h2, .stats h2, .digger h2, .video h2, .engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
+.mobility h2, .subscribe h2, .stats h2, .digger h2, .video h2, .engine h2, .equipment h2, .price h2, .reviews_video h2, .reviews h2 {
     font-size: 27px;
     margin-bottom: 10px;
 }
+
+ 
 
 .main_box {
     height: 615px;
